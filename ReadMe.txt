@@ -11,7 +11,7 @@ VirtualnaSvojstva
 Primjer kako se mogu definirati i pregaziti virtualna svojstva
 
 
-Propterecenje
+Propterećenje
 -------------
 Ilustracija kako svojstvo ne može biti tipa void i kako se ne mogu preopterećivati
 

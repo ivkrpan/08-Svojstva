@@ -4,16 +4,9 @@ namespace Vsite.CSharp
 {
     // primjer definiranja indeksera (svojstava s parametrom)
     // s cjelobrojnim indeksom
-    class StringArray
+    static class DaniUTjednu
     {
-        // konstruktor koji inicijalizira duljinu niza
-        public StringArray(int length)
-        {
-            m_items = new string[length];
-        }
-        // niz znakovnih brojeva
-        private string[] m_items;
-
+        public string this[this int]
 
         // TODO: Definirati svojstvo s parametrom (indekser) tipa int koji će provjerati proslijeđeni indeks i bacati iznimku tipa IndexOutOfRangeException za slučaj neispravnog indeksa
         // Provjeriti ispravnost koda izvođenjem metode Main
@@ -28,11 +21,11 @@ namespace Vsite.CSharp
             StringArray niz = new StringArray(3);
             try
             {
-                niz[0] = "Nulti";
-                niz[2] = "Drugi";
-                Console.WriteLine("niz[2] = {0}", niz[2]);
-                Console.WriteLine("niz[1] = {0}", niz[1]);
-                niz[3] = "Treći";
+                //niz[0] = "Nulti";
+                //niz[2] = "Drugi";
+                //Console.WriteLine("niz[2] = {0}", niz[2]);
+                //Console.WriteLine("niz[1] = {0}", niz[1]);
+                //niz[3] = "Treći";
             }
             catch (IndexOutOfRangeException e)
             {
@@ -41,7 +34,7 @@ namespace Vsite.CSharp
 
             try
             {
-                Console.WriteLine("niz[-1] = {0}", niz[-1]);
+                //Console.WriteLine("niz[-1] = {0}", niz[-1]);
             }
             catch (IndexOutOfRangeException e)
             {

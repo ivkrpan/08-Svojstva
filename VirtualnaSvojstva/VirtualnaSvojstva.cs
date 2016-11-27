@@ -3,16 +3,42 @@ using System.Diagnostics;
 
 namespace Vsite.CSharp
 {
-    // primjer virtualnih svojstava
-
-    class Program
+    public class VirtualnaSvojstva
     {
+        public class Osoba
+        {
+            public Osoba(string ime)
+            {
+                Identifikacija = ime;
+            }
+
+            public virtual string Identifikacija
+            {
+                get;
+                private set;
+            }
+        }
+
+        public class Student : Osoba
+        {
+            public Student(string ime, int godina)
+                : base(ime)
+            {
+                Godina = godina;
+            }
+
+            // TODO: Pregaziti (overrideati) svojstvo Identifikacija tako da get metoda vraća znakovni niz oblika: "Pero, 2. godina". Pokrenuti program i testove te provjeriti rezultat.
+
+
+
+            public int Godina { get; set; }
+        }
+
+
         static void Main(string[] args)
         {
             Osoba o = new Osoba("Janko");
             Console.WriteLine(o.Identifikacija);
-
-            // TODO: U definiciji klase Student pregaziti svojstvo Identifikacija tako da donja naredba Debug.Assert ne baci iznimku
 
             Student s = new Student("Pero", 5);
             Debug.Assert(s.Identifikacija == "Pero, 5. godina");

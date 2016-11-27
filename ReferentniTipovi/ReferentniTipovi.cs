@@ -6,10 +6,9 @@ using System.Diagnostics;
 
 namespace Vsite.CSharp
 {
-    // Primjer promjene članova referentnog tipa preko get metode
-    class ReferentniTipovi
+    public class ReferentniTipovi
     {
-        class Smočnica
+        public class Smočnica
         {
             public Smočnica()
             {
@@ -30,8 +29,9 @@ namespace Vsite.CSharp
             foreach (var a in s.Namirnice)
                 Console.WriteLine(a);
 
-            Debug.Assert(s.Namirnice.Count == 2);
+            Debug.Assert(s.Namirnice.Count() == 2);
 
+            Console.WriteLine("GOTOVO!!!");
             Console.ReadKey();
         }
     }
