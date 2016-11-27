@@ -63,11 +63,11 @@
       <Project>{dfe60c54-dc79-4197-973e-1cf27fa57526}</Project>
       <Name>Definicija</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Indekseri2\Indekseri.csproj">
+    <ProjectReference Include="..\Indekseri\Indekseri.csproj">
       <Project>{c64be084-d244-41d1-985d-bec3d4c16116}</Project>
       <Name>Indekseri</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Preoterecenje\Preoterećenje.csproj">
+    <ProjectReference Include="..\Preoterećenje\Preoterećenje.csproj">
       <Project>{0ab0958b-970b-4948-8ec0-cfce7e04aaee}</Project>
       <Name>Preoterećenje</Name>
     </ProjectReference>

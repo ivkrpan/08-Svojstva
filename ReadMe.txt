@@ -21,17 +21,6 @@ ReferentniTipovi
 Primjer promjene članova referentnog tipa preko get metode
 
 
-Indekseri1
+Indekseri
 ----------
-Primjer definiranja indeksera (svojstava s parametrom) s cjelobrojnim indeksom
-
-
-Indekseri2
-----------
-Primjer svojstava sa stringom kao parametrom
-
-
-Serializacija
--------------
-Svojstva su bitna kod XML serilizacije: svi podaci koji se žele pohraniti/učitati
-u/iz XML datoteke moraju biti dostupni preko javnih svojstava
+Primjer definiranja indeksera (svojstava s parametrom) s cjelobrojnim indeksom, odn. stringom
