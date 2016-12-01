@@ -67,7 +67,7 @@ namespace Vsite.CSharp
             Console.WriteLine(o1);
 
             o1.Ime = "Pero";
-         //   o1.Prezime = "Kvrgić";
+          //  o1.Prezime = "Kvrgić";
             Console.WriteLine(o1);
 
             o1.DatumRođenja = new DateTime(2020, 4, 13);
